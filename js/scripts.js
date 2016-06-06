@@ -9,9 +9,10 @@ $(function(){
     var favoriteThings = [];
 
     favoriteThings.push(thing1Input, thing2Input, thing3Input, thing4Input);
-    favoriteThings.shift(favoriteThings[0]);
-    favoriteThings.unshift(favoriteThings[1]);
-    favoriteThings.splice(2,1);
-    alert(favoriteThings);
+    var favoriteThings2 = favoriteThings.slice();
+    favoriteThings2.shift(favoriteThings2[0]);
+    favoriteThings2.unshift(favoriteThings2[1]);
+    favoriteThings2.splice(2,1);
+    alert(favoriteThings2);
   });
 });
