@@ -14,5 +14,7 @@ $(function(){
     favoriteThings2.unshift(favoriteThings2[1]);
     favoriteThings2.splice(2,1);
     alert(favoriteThings2);
+    favoriteThings2.push(favoriteThings[0], favoriteThings[1], favoriteThings[2], favoriteThings[3]);
+    alert(favoriteThings2);
   });
 });
