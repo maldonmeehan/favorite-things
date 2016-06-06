@@ -16,5 +16,13 @@ $(function(){
     alert(favoriteThings2);
     favoriteThings2.push(favoriteThings[0], favoriteThings[1], favoriteThings[2], favoriteThings[3]);
     alert(favoriteThings2);
+
+    $(".result ul").append("<li>" + favoriteThings2[0] + "</li>");
+    $(".result ul").append("<li>" + favoriteThings2[1] + "</li>");
+    $(".result ul").append("<li>" + favoriteThings2[2] + "</li>");
+    $(".result ul").append("<li>" + favoriteThings2[3] + "</li>");
+    $(".result ul").append("<li>" + favoriteThings2[4] + "</li>");
+    $(".result ul").append("<li>" + favoriteThings2[5] + "</li>");
+    $(".result ul").append("<li>" + favoriteThings2[6] + "</li>");
   });
 });
