@@ -1,12 +1,13 @@
-# _{Application Name}_
+# Favorite Things
 
-#### _{Brief description of application}, {Date of current version}_
+#### 
 
-#### By _**{Stephanie Gurung & Maldon Meehan}**_
+#### By Stephanie Gurung & Maldon Meehan
 
 ## Description
-
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Build a Deck
+Use a forEach() loop within another forEach() loop to build an array representing a deck of cards. A deck consists of 52 cards - 13 ranks in each of 4 suits.
+Then, display a list of every card in the deck. (Hint: Each element of the array should read something like "ace of spades" or "4 of hearts").
 
 ## Setup/Installation Requirements
 
